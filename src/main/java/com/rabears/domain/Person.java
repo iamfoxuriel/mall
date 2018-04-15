@@ -1,4 +1,4 @@
-package com.rabears.application;
+package com.rabears.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

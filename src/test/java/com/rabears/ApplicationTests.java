@@ -1,4 +1,4 @@
-package com.rabears.application;
+package com.rabears;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SampleFlywayApplicationTests {
+public class ApplicationTests {
 
 	@Autowired
 	private JdbcTemplate template;
