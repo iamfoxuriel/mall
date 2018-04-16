@@ -1,4 +1,5 @@
-== Spring Boot Flyway Sample
+[![Build Status](https://www.travis-ci.org/iamfoxuriel/mall.svg?branch=master)](https://www.travis-ci.org/iamfoxuriel/mall)
+
 
 # flyway to refresh db
 ## h2 
