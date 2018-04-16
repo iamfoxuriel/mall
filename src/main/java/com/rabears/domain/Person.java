@@ -1,11 +1,16 @@
 package com.rabears.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
 @Entity
+@Getter
+@Setter
 public class Person {
     @Id
     @SequenceGenerator(name = "person_generator", sequenceName = "person_sequence", allocationSize = 1)
@@ -14,21 +19,6 @@ public class Person {
     private String firstName;
     private String lastName;
 
-    public String getFirstName() {
-        return this.firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return this.lastName;
-    }
-
-    public void setLastName(String lastname) {
-        this.lastName = lastname;
-    }
 
     @Override
     public String toString() {
