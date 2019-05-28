@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'ss'
+      image 'maven:3.3-jdk-8'
     }
 
   }
